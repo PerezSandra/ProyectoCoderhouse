@@ -1,0 +1,250 @@
+/*Incio estilo al body*/
+
+body {
+  background-color: rgb(236, 233, 231);
+}
+
+/*Termina estilo al body*/
+
+                                          /* Inicio estilo a header*/ 
+
+.barranavegacion { 
+  background-color:rgb(250, 248, 191);
+  border: solid 7px rgb(252, 195, 238) ;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -5px;
+  list-style-type: none;
+}
+
+.menu a {
+  color: rgb(97, 85, 85) ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: rgb(252, 195, 238);
+  list-style-type: none;
+  text-decoration: none;
+}
+  
+.menu {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.barramenu {
+  padding: 8px;
+  margin: 60px;
+  border-radius: 40px;
+}
+
+
+.headerH1{
+  margin-left: 400px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 85px;
+}
+
+                                          /* Termina estilo a header*/ 
+
+                                          /*Comienza el estilo a main */
+
+.tituloChico {
+  font-size: 18px;
+  color: rgb(97, 85, 85) ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: -5px;
+  padding-top: 150px;
+  margin:   150px 450px 200px  500px;
+  display:inline;
+}
+
+.subTitulo {
+  color: rgb(53, 46, 46) ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding:-15px;
+  padding-top: 150px;
+  margin:   550px;
+  display:inline;
+}
+
+.mainH3 {
+  font-size: 20px;
+  color: black;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.main{
+  font-size: 20px;
+  color: black;
+  padding-left: 35%;
+}
+
+.suscripcion {
+  color: rgb(97, 85, 85) ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:-20px;
+  padding-top: 150px;
+  margin:   550px;
+  display:inline;
+}
+
+.datosPersonales {
+  display: inline 
+}
+
+.logo {
+  height: 250px;
+  width:250px;
+  margin: 20px 20px 50px 500px;
+  padding-left: 90px;
+}
+
+.contenidoH3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgb(25, 11, 11);
+}
+
+span {
+  font-size: 200%;
+  background-color: rgb(248, 184, 230);
+  padding-left: 560px;
+  display: block;
+}
+
+.span1{
+  font-size: 20px;
+  background-color: rgb(218, 224, 209);
+  padding-left: 560px;
+  display: block;
+}
+
+.span2{
+  color: rgb(85, 77, 77);
+  background-color: rgb(217, 154, 226);
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.boton {
+  color: rgb(97, 85, 85) ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: rgb(228, 187, 236);
+  border: solid 5px rgb(248, 247, 184) ;
+  margin: 70px;
+  margin-left:45%;
+}
+
+.suscripcion{
+  font-size: 15px;
+}
+    
+.comentarios {
+  height: 200px;
+  width: 300px;
+  border: solid 3px rgb(240, 101, 210) ;
+  margin: 50px;
+  margin-left: 1%;
+}  
+
+/* empieza estilo lista productos */
+.listaProductos {
+  color: rgb(97, 85, 85) ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: rgb(215, 143, 248);
+  border-radius:40px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.lista{
+  padding: 5px;
+  margin: 20px;
+  border-radius:80px;
+  border: rgb(241, 132, 218) solid 6px;
+  background-color: rgb(247, 168, 227);
+}
+/*termina estilo lista productosr*/ 
+
+                                          /*Termina el estilo a main */
+
+/* empieza el estilo a la imagenes productos*/
+
+.productos {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 100px 5px 100px 5px;
+  border-radius: 40px;
+  border: solid 5px rgb(252, 195, 238) ;
+  display: inline;
+}
+
+.productos1 {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin: 100px 5px 100px 5px;
+  border-radius: 40px;
+  border: solid 5px rgb(248, 131, 219) ;
+  display: inline;
+}
+
+.productosIndex {
+  padding-left: 370px;
+  padding-bottom: 10%;
+}
+
+/* termina el estilo a la imagenes productos*/
+
+/*estilo al mapa*/
+.mapa {
+  height: 300px;
+  width: 500px;
+  border-radius: 40px;
+  margin-left: 300px;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+/*termina el estilo al mapa/*
+
+                                      /* Empieza el estilo al footer */
+.piepagina {
+  background-color:rgb(245, 242, 151);
+  list-style-type: none;
+  text-decoration: none;
+  border: solid 7px rgb(243, 160, 222) ;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: -5px;
+  padding-top: 5px;
+  color: rgb(97, 85, 85) ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.redes {
+  display: inline;
+  padding: 8px;
+  margin: 150px;
+  border-radius: 40px;
+  background-color: rgb(247, 168, 227);
+}
+
+
+
+
+                                      /*Termina el estilo al footer*/ 
+
