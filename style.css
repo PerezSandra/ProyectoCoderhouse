@@ -2,6 +2,11 @@
 
 body {
     background-image: linear-gradient(50deg,#c5f3f3,#f9b6d9 );
+    
+      overflow:hidden;
+      overflow-x:hidden;overflow-y:scroll;
+      overflow:-moz-scrollbars-vertical;
+      
 }
 
 /*Termina estilo al body*/
@@ -109,7 +114,7 @@ body {
 
 .logo:hover{
   transform: scale(1.3);
-  transform: rotate(20deg);
+  
   
 }
 
@@ -244,20 +249,24 @@ span {
 
                                       /* Empieza el estilo al footer */
 .piepagina {
-  background-color:rgb(244, 250, 164);
+  background-color: rgb(235, 249, 168);
   list-style-type: none;
   text-decoration: none;
-  border: solid 7px rgb(243, 160, 222) ;
+  /*border: solid 7px rgb(243, 160, 222) ;*/
   /*margin-left: 450px;
   margin-right: 450px;
   margin-top: 1px;
   padding-top: 1px;*/
-  
-  font-size: 20px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 20px;
+  
 }
+
+
+
 
 .redes {
   display: flex;
@@ -266,12 +275,12 @@ span {
   padding: 8px;
   margin: 150px;
   border-radius: 40px;
-  
-  
   background-color: rgb(239, 129, 212);
 }
 
-
+.iconos{
+ background-color: red;
+}
 
 
                                       /*Termina el estilo al footer*/ 
@@ -290,7 +299,7 @@ span {
 }
 
 .container-fluid{
-    background-color: #e4f585;
+   background-color: #e4f585;
    padding-top: 5px;
   
 }
@@ -323,6 +332,14 @@ span {
   color: violet;
 }
 
+.menu a{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  align-items: center;
+
+}
+
 @media  (max-width:320px) {
   .card{
     margin-left: 250px;
@@ -346,4 +363,11 @@ span {
   margin-right: -2px;
   
 }
-  
+
+.logo:hover{
+  transform: scale(1.5);
+}
+
+
+
+}
