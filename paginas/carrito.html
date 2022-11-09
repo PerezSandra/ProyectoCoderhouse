@@ -11,15 +11,40 @@
 <body>
     <header>
         <div>
-         <nav class="barranavegacion">
+          <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../paginas/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/carrito.html">Carrito</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/sobreNosotros.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/suscribite.html">Suscribite</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+         <!--<nav class="barranavegacion">
           <ul>
             <li class="menu"><a class="barramenu" href="../index.html">Inicio</a></li>
-            <li class="menu"><a class="barramenu" href="/paginas/productos.html">Productos</a></li>
-            <li class="menu"><a class="barramenu" href="/paginas/carrito.html">Carrito</a></li>
-            <li class="menu"><a class="barramenu" href="/paginas/sobreNosotros.html">Sobre Nosotros</a></li>
-            <li class="menu"><a class="barramenu" href="/paginas/suscribite.html">Suscribite</a></li>
+            <li class="menu"><a class="barramenu" href="../paginas/productos.html">Productos</a></li>
+            <li class="menu"><a class="barramenu" href="../paginas/carrito.html">Carrito</a></li>
+            <li class="menu"><a class="barramenu" href="../paginas/sobreNosotros.html">Sobre Nosotros</a></li>
+            <li class="menu"><a class="barramenu" href="../paginas/suscribite.html">Suscribite</a></li>
          </ul>
-         </nav>    
+         </nav> -->   
         </div>  
     </header>
 
@@ -30,7 +55,7 @@
             </h2>
         </div>   
 
-        <div>
+          <!--<div>
             <ol class="listaProductos">
               <li class="lista">Maquillaje</li>
               <li class="lista">Perfumes</li>
@@ -43,33 +68,63 @@
               <li class="lista">Accesorios Ecologicos</li>
               <li class="lista">Skincare</li>
             </ol>
-        </div>
+        </div>-->
   
-        <section>
-            <div >
-                <div class="card" style="width: 18rem;">
-                    <img src="/Img/quitaesmalte.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">COMPRAR</a>
-                    </div>
-                  </div>
-                <!-- <img class="productos" src="../img/quitaesmalte.jpg" alt="quitaesmalte"> -->
-                <div class="card" style="width: 18rem;">
-                    <img src="/Img/rosa.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                <!-- <img class="productos1" src="../img/rosa.jpg" alt="rosa"> -->
-                <img class="productos"  src="../img/lila.jpg" alt="lila">
-                <img class="productos" src="../img/esponjas.jpg" alt="esponjas">
-                <img class="productos1"  src="../img/esponja.jpg" alt="esponjaverde">
-                <img class="productos" src="../img/desmaquillantes.jpg" alt="desmaquillantes">
+        <section class="cardsCarrito">
+          <div class="card" style="width: 18rem;">
+            <img src="../Img/desmaquillantes.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">DESMAQUILLANTES</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">COMPRAR</a>
             </div>
+          </div>
+             
+                <div class="card" style="width: 18rem;">
+                  <img src="../Img/lila.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ESMALTE LILA</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+                
+
+
+                <div class="card" style="width: 18rem;">
+                  <img src="../Img/esponja.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">KONJAC</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../Img/esmaltes.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ESMALTES</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../Img/esponjas.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">ESPONJAS </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../Img/labiales.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">LABIALES</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">COMPRAR</a>
+                  </div>
+                </div>
+                
+                
         </section>
     </main>
 
