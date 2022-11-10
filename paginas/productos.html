@@ -5,48 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../Img/favIcon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Document</title>
 </head>
 
     <body>
         <header>
-            <nav class="container-fluid">
-                <ul class="row">
-                    <li class="menu col-sm-12 col-md-4 col-xl-2"><a class="barramenu" href="../index.html">Inicio</a></li>
-                    <li class="menu col-sm-12 col-md-4 col-xl-2"><a class="barramenu" href="../paginas/productos.html">Productos</a></li>
-                    <li class="menu col-sm-12 col-md-4 col-xl-2"><a class="barramenu" href="../paginas/carrito.html">Carrito</a></li>
-                    <li class="menu col-sm-12 col-md-6 col-xl-2"><a class="barramenu" href="../paginas/sobreNosotros.html">Sobre Nosotros</a></li>
-                    <li class="menu col-sm-12 col-md-6 col-xl-2"><a class="barramenu" href="../paginas/suscribite.html">Suscribite</a></li>
-                </ul>
-            </nav>
-        </div> 
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./carrito.html">Carrito</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./sobreNosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./suscribite.html">Suscribite</a>
+                      </li>
+                      </ul>
+                      <div class="botonSearch">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                  </div>
+                </div>
+              </nav>
+            </div> 
         </header>
         
         <main>
         
-                <h1">TE PRESENTAMOS INFORMACION SOBRE NUESTROS PRODUCTOS</h1>
+                <h1 class="destacado">TE PRESENTAMOS INFORMACION SOBRE NUESTROS PRODUCTOS</h1>
     
-                <h2>PRODUCTOS DE LA TIENDA</h2>
-                <h3>Buscando la concientización por el cuidado sostenible de la salud y el medioambiente.
+                <h2 class="destacado1">PRODUCTOS DE LA TIENDA</h2>
+                <h3 class="mainH3">Buscando la concientización por el cuidado sostenible de la salud y el medioambiente.
                     Elaboramos productos con fórmulas basadas en la investigación constante sobre las propiedades de las plantas y elementos naturales. Logrando productos biodegradables y nutritivos para nuestro cuerpo y completamente naturales, libres de sulfatos, siliconas y parabenos, sin derivados del petróleo y que no son testados en animales.
                     Todos nuestros empaques son reutilizables y reciclables para minimizar el impacto en el medioambiente.
                     Asumiendo un consumo responsable y consciente podemos generar la diferencia. El planeta lo necesita. 
                 </h3>
                 <hr>
-                <h3>CREMAS SOLIDA</h3>
-                <h4>¿Cómo se usa la crema sólida? Pasas la crema sólida por tu piel y con el calor corporal deja cierto aceite que no te preocupes, se seca al ratito!
+                <h3 class="letraColor">CREMAS SOLIDA</h3>
+                <h4 class="mainH3">¿Cómo se usa la crema sólida? Pasas la crema sólida por tu piel y con el calor corporal deja cierto aceite que no te preocupes, se seca al ratito!
                     Vas a tener una humectación asegurada y realmente deja la piel increíble.
                     Tenemos tres variedades de crema sólida:
                     ANTIESTRES: Los cítricos nos ayudan a combatir el estrés y a mejorar el estado de ánimo. Además tiene muchas propiedades y beneficios, como ser antioxidante, antibacteriano, y ayudar a combatir manchas o rojeces por exceso de sol.
                     REGENERADORA: Excelente para combatir las estrías y las arrugas, ya que mejora la eliminación de células muertas y la regeneración de la piel.
                     NUTRITIVA: Con chocolate el cual nos aporta mucha hidratación a la piel, y combinada con la manteca de cacao te asegura una hidratación inmediata, activando la circulación del cuerpo.
                 </h4>
-                <img class="productos" src="../Img/crema1.jpeg" alt="crema">
+                <div class="productoContainer">
+                <img class="imagenProductos" src="../Img/crema1.jpeg" alt="crema">
+                </div>
               
-                <h3>ESMALTES BLOOST</h3>
+                <h3 class="letraColor">ESMALTES BLOOST</h3>
                 <h4>La nueva fórmula euro21® de esmaltes blösst, desarrollada bajo las normas europeas más exigentes (EC N°1223/2009), es libre de Tolueno, DBP, Formaldehído, Resina de Formaldehído, Alcanfor, Parabenos, Xileno, Fosfato de Trifelino Estireno, Acetona, Bisfenol A, Tosilamida y sulfatos, no se testea en animales y está libre de componentes de origen animal. Los esmaltes blösst están disponibles en una gran variedad de colores y su pincel big brush permite una aplicación más precisa y con mayor cobertura.</h4>
-                <img class="productos"src="../Img/esmaltes1.png" alt="esmaltes">
+                <div class="productoContainer">
+                <img class="imagenProductos"src="../Img/esmaltes1.png" alt="esmaltes">
+                </div>
     
     
         </main>
@@ -71,7 +100,7 @@
                   </svg></a></li>
             </ul>
         </footer>
-    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>    
     
  </body>
 

@@ -127,6 +127,7 @@ body {
 .letraColor {
   font-size: 100%;
   color: rgb(192, 30, 189);
+  padding-top: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -146,6 +147,20 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.destacado1{
+  font-size: 30px;
+  color: rgb(47, 41, 41);
+  font-family: sans-serif;
+  background-color: rgb(248, 190, 190);
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /*fin estilo a lo que sea letras*/
 
 .boton {
@@ -170,11 +185,7 @@ body {
   margin-left: 1%;
 }  
 
-.footer{
-  
-  display: flex;
-  
-}
+
 
                                           /*Termina el estilo a main */
 
@@ -186,18 +197,20 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  
-
-
 }
 
+.imagenProductos {
+  width: 300px;
+ height: 300px;
+ 
+}
 
-
-
-
-.productosIndex {
-  padding-left: 370px;
-  padding-bottom: 10%;
+.productoContainer{
+  padding-top: 30px;
+  display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
 }
 
 /* termina el estilo a la imagenes productos*/
@@ -261,18 +274,21 @@ body {
   border: #e5f689 solid 10px;
   border-radius: 20px;
   margin-bottom: 50px;
- 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
-
-}
+ }
 
 .container-fluid {
-   background-color: #ebfa20;
+   background-color: #e9fa52;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
+.d-flex{
+  background-color: #f8b1d6;
+}
 
-
+.botonSearch{
+  background-color: #251d21;
+}
 
  .iconos{
   display: flex;
@@ -290,12 +306,6 @@ body {
   size: 400px;
 }
 
-
-
-.col-sm-12 col-md-4 col-xl-2{
-  list-style-type: none;
-  text-decoration: none;
-}
 
 .menu{
   list-style-type: none;
@@ -340,9 +350,7 @@ body {
   }
 
 
-  .card{
-    margin-left: 250px;
-  }
+ 
   .headerH1{
     margin-left: 10px;
     margin-top: 100px;
@@ -388,13 +396,6 @@ body {
   align-items: center;*/
  }
 
- .cardsCarrito{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  
-}
 
 
 .container-fluid .footer {
